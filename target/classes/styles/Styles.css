@@ -1,0 +1,29 @@
+.text {
+    -fx-text-alignment: center;
+}
+
+.text-area, .text-area .viewport, .text-area .content {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding-left: 15;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.list-cell:filled:selected {
+    -fx-text-fill: #b79a0e;
+    -fx-background-color: transparent;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-padding-left: 30;
+}

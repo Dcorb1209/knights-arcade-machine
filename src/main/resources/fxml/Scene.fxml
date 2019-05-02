@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #231f20;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.drew.knightsarcademachine.FXMLController">
+   <children>
+      <ImageView fx:id="pic" fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ListView fx:id="gameList" layoutX="1610.0" layoutY="96.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="1080.0" prefWidth="540.0" style="-fx-font-size: 34;" stylesheets="@../styles/Styles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <TextArea fx:id="gameDescription" editable="false" layoutX="194.0" layoutY="738.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="992.0" styleClass="text" stylesheets="@../styles/Styles.css" wrapText="true" AnchorPane.bottomAnchor="175.0" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="734.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="gamePic" fitHeight="468.0" fitWidth="832.0" layoutX="590.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="274.0" AnchorPane.topAnchor="175.0" />
+   </children>
+</AnchorPane>
